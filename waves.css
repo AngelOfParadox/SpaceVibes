@@ -1,0 +1,122 @@
+body {
+    /* Size. */
+    min-height: 100vh;
+    /* Internal. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Color. */
+     background-color: #000000;
+    /*
+    background-color: #0022ff;
+    */
+   
+    /* 
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2019/12/18/wanderer-above-the-sea-of-fog-by-caspar-david-friedrich-wallpaper.jpg');
+    background-image: url('https://get.wallhere.com/photo/John-Everett-Millais-Ophelia-William-Shakespeare-Hamlet-artwork-oil-painting-painting-1682457.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp1858921.png');
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images7/Nier-Automata-Background-HD.png');
+    
+
+    background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2017/05/14/1089819/d163eb421c325be379370a8b72603ab9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    */
+  }
+
+  
+  #container {
+ 
+    
+    width: 1080px;
+    height: auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: #FFF;
+    background-image: radial-gradient(to bottom, #0f0f0f 0%, #0a0a0a 100%);
+    border-radius: 10px;
+    box-shadow: 0 16px 24px -8px rgba(0,0,0,.25), 0 8px 16px -8px rgba(0,0,0,.5);
+  }
+  
+
+h1 {
+
+    text-shadow: -2px 3px 3px #000000;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 40px;
+    letter-spacing: 9.5px;
+    font-weight: 450;
+    user-select: none;
+    margin-top: -50px;
+    background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    animation: animatedBackground_a 4.5s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+
+@keyframes animatedBackground_a {
+    0% { background-position: 0 0 }
+    100% { background-position: -500px 0 }
+}
+#text-box {
+  width: 90%;
+  margin: auto;
+  max-height: 100px;
+  overflow-y: scroll;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  
+}
+#text-box::-webkit-scrollbar {
+  width: 2px;
+  background-color: transparent;
+}
+
+#text-box::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+
+textarea {
+  width: 90%;
+  height: auto;
+  min-height: 240px;
+  padding: 12px 20px;
+  padding-bottom: 2%;
+  box-sizing: content-box;
+  border: 0.1px solid #ccc;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 24px;
+  overflow-y: scroll; 
+  color: #fff;
+  
+  
+}
+textarea::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+  #container canvas {
+    width: 100%;
+  }

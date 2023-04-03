@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Space Vibes</title>
+    <script src="https://cdn.jsdelivr.net/npm/sine-waves@0.3.0/sine-waves.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="waves.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+    </style>
+</head>
+<body>
+    <div id="container">
+        <canvas id="waves"></canvas>
+        <div id="content">
+            <center><h1>Space Vibes</h1></center>
+            <div id="text-box">
+                <center><h2 autofocus>Data from Microsoft Text Analytics (Sentences) </h2></center>
+            </div>
+            <center><textarea class="button" placeholder="Say something..." autofocus rows="4"></textarea></center>
+        </div>
+    </div>
+    <div id="results"></div>
+    <script src="Results.js">
+    </script>
+    <script src="Sinewaves.js">
+    </script>
+    <style>
+        body{
+
+        scrollbar-width: thin;
+        scrollbar-color: #000000 #F5F5F5;
+        }
+
+        body::-webkit-scrollbar {
+        width: 10px;
+        }
+
+        body::-webkit-scrollbar-track {
+        background-color: transparent;
+        }
+
+        body::-webkit-scrollbar-thumb {
+        background-color: #000000;
+        border: 2px solid #555555;
+        border-radius: 10px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 4px;
+        }
+        
+    </style>
+    
+</body>
+</html>
