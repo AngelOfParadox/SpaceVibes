@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/106837228/229649137-54a92652-4896-4ed3
 In addition, you can change the colors according to your personal taste. 🎨
 
 # Credits 💻
-This project was created by Miguel Angel with pain.
+This project was created by Miguel Angel.
 
 # License 📜
 This project is licensed under the MIT License.
