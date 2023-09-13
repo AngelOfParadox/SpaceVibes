@@ -36,7 +36,7 @@ textarea.addEventListener('input', function() {
     xhr.open("POST", "https://microsoft-text-analytics1.p.rapidapi.com/sentiment");
     xhr.setRequestHeader("content-type", "application/json");
     // Get your key at: https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/microsoft-text-analytics1
-    xhr.setRequestHeader("X-RapidAPI-Key", "YOUR_KEY_HERE");
+    xhr.setRequestHeader("X-RapidAPI-Key", "67589d2c79msh73a2a6b366160cdp1ffc2ejsn199c10d4a9c6");
     xhr.setRequestHeader("X-RapidAPI-Host", "microsoft-text-analytics1.p.rapidapi.com");
     xhr.send(data);
     
